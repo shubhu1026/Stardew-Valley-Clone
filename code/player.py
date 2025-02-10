@@ -39,10 +39,12 @@ class Player(pygame.sprite.Sprite):
         self.selected_seed = self.seeds[self.seed_index]
 
     def use_tool(self):
-        print(self.selected_tool)
+        # print(self.selected_tool)
+        pass
 
     def use_seed(self):
-        print(self.selected_seed)
+        # print(self.selected_seed)
+        pass
     
     def import_assets(self):
         self.animations = {'right': [], 'left': [], 'up': [], 'down': [], 
